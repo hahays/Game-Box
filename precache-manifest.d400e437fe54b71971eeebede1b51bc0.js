@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "37a3bf8f1d54889c113e",
-    "url": "/Game-Box/static/css/main.c03c9cbe.chunk.css"
+    "revision": "a41f50bb0baf78147f38",
+    "url": "/Game-Box/static/css/main.55176c0f.chunk.css"
   },
   {
-    "revision": "37a3bf8f1d54889c113e",
-    "url": "/Game-Box/static/js/main.37a3bf8f.chunk.js"
+    "revision": "a41f50bb0baf78147f38",
+    "url": "/Game-Box/static/js/main.a41f50bb.chunk.js"
   },
   {
     "revision": "229cf32b6179f9abe239",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/Game-Box/static/media/spaceInvaders.2a8dd960.png"
   },
   {
-    "revision": "ed7c265fa1d9a08f8653a7ba56bfd202",
-    "url": "/Game-Box/static/media/BdNew4.ed7c265f.png"
+    "revision": "1f5a9e2f9a2557fd2913b5be5d40ad4d",
+    "url": "/Game-Box/static/media/BdNew1.1f5a9e2f.png"
   },
   {
     "revision": "1dfd08384db2bc969c514545403bd3bf",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/Game-Box/static/media/console.89b826db.png"
   },
   {
-    "revision": "0961d8bb182e0bec7986276b6b586140",
+    "revision": "d956de4e135aa2f141ff299d301977d7",
     "url": "/Game-Box/index.html"
   }
 ];
