@@ -56,16 +56,16 @@ self.__precacheManifest = [
     "url": "/Game-Box/static/media/gamebox.1dfd0838.png"
   },
   {
+    "revision": "1f968a5303b4821d31649463f5ef11be",
+    "url": "/Game-Box/static/media/televizor2.1f968a53.png"
+  },
+  {
     "revision": "810aee48362a95322ccb34def91cdd7e",
     "url": "/Game-Box/static/media/televizor1.810aee48.png"
   },
   {
     "revision": "62cb9536d451e2eb109fceb2cbe4abce",
     "url": "/Game-Box/static/media/televizor3.62cb9536.png"
-  },
-  {
-    "revision": "1f968a5303b4821d31649463f5ef11be",
-    "url": "/Game-Box/static/media/televizor2.1f968a53.png"
   },
   {
     "revision": "89b826dbe90ada368802774377d19357",
