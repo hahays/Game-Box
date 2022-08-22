@@ -1,7 +1,7 @@
 {
   "main.css": "/Game-Box/static/css/main.55176c0f.chunk.css",
-  "main.js": "/Game-Box/static/js/main.a41f50bb.chunk.js",
-  "main.js.map": "/Game-Box/static/js/main.a41f50bb.chunk.js.map",
+  "main.js": "/Game-Box/static/js/main.3978d982.chunk.js",
+  "main.js.map": "/Game-Box/static/js/main.3978d982.chunk.js.map",
   "static/css/1.4a1f2f76.chunk.css": "/Game-Box/static/css/1.4a1f2f76.chunk.css",
   "static/js/1.229cf32b.chunk.js": "/Game-Box/static/js/1.229cf32b.chunk.js",
   "static/js/1.229cf32b.chunk.js.map": "/Game-Box/static/js/1.229cf32b.chunk.js.map",
@@ -21,6 +21,6 @@
   "static/css/1.4a1f2f76.chunk.css.map": "/Game-Box/static/css/1.4a1f2f76.chunk.css.map",
   "static/css/main.55176c0f.chunk.css.map": "/Game-Box/static/css/main.55176c0f.chunk.css.map",
   "index.html": "/Game-Box/index.html",
-  "precache-manifest.d400e437fe54b71971eeebede1b51bc0.js": "/Game-Box/precache-manifest.d400e437fe54b71971eeebede1b51bc0.js",
+  "precache-manifest.8cd51c3dc6a0c79f4adae63fb9c51dee.js": "/Game-Box/precache-manifest.8cd51c3dc6a0c79f4adae63fb9c51dee.js",
   "service-worker.js": "/Game-Box/service-worker.js"
 }
