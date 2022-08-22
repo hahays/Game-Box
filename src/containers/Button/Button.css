@@ -1,0 +1,32 @@
+.game-button {
+  background: url("../Button/buttonNew.png");
+  background-size: cover;
+  border-radius: 50%;
+  transition: 1s;
+  height: 98px;
+  width: 100px;
+  text-align: center;
+  outline: black;
+  color: #fff;
+  font-size: 15px;
+  box-shadow: 1px 1px 6px 2px #0e0e0e;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.game-button:hover {
+  background: url("../Button/button-hoverNew.png");
+  background-size: cover;
+  box-shadow: 0px 0px 10px 2px #0e0e0e;
+  transition: 1s;
+  outline: black;
+}
+
+.game-button:active {
+  background: url("../Button/button-hoverNew.png");
+  background-size: cover;
+  /* border-style: dotted; */
+  /* transform: scale(0.96);
+  box-shadow: 0px 0px 10px 2px #0e0e0e;
+  transform: translateY(-2px); */
+  outline: black;
+}

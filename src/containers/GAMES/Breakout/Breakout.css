@@ -1,0 +1,35 @@
+.grid-break-out {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 101px;
+  width: 518px;
+  height: 390px;
+  color: #fff;
+  border-color: rgb(168, 84, 84);
+  border-style: double;
+}
+
+.block {
+  border-style: groove;
+  position: absolute;
+  width: 79px;
+  height: 20px;
+  background-color: rgb(91, 150, 94);
+}
+
+.user {
+  border-style: groove;
+  position: absolute;
+  width: 111px;
+  height: 20px;
+  background-color: rgb(163, 36, 163);
+}
+
+.ball {
+  border-style: groove;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(207, 80, 80);
+}

@@ -1,0 +1,28 @@
+.grid-connect-four {
+  border-color: rgb(168, 84, 84);
+  border-style: double;
+  background-color: rgba(0, 0, 0, 1);
+  height: 394px;
+  width: 519px;
+  margin-left: 101px;
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-connect-four div {
+  height: 64px;
+  width: 73px;
+}
+
+.player-one {
+  border-style: groove;
+  background-color: red;
+  border-radius: 93px;
+}
+
+.player-two {
+  background-color: blue;
+  border-style: groove;
+  border-radius: 10px;
+}

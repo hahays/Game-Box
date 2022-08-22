@@ -1,0 +1,36 @@
+.grid-space-invaders {
+  border-color: rgb(168, 84, 84);
+  border-style: double;
+  width: 519px;
+  margin-top: 20px;
+  height: 390px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 101px;
+}
+
+.grid-space-invaders div {
+  width: 34px;
+  height: 24px;
+}
+
+.invader {
+  border-style: groove;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.shooter {
+  border-style: groove;
+  background-color: green;
+}
+
+.laser {
+  border-style: groove;
+  background-color: orange;
+}
+
+.boom {
+  border-style: groove;
+  background-color: red;
+}

@@ -1,0 +1,100 @@
+.loader-game {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 101px;
+  width: 518px;
+  height: 390px;
+}
+
+.loader-game {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 101px;
+  width: 518px;
+  height: 390px;
+  color: #fff;
+  /* border-color: rgb(192, 31, 197); */
+  animation: ROTATION 10s linear infinite;
+  transition: 1s;
+  /* background: url("../../assets/gameCover/breakOut.png"); */
+}
+
+.loader-game:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  /* background: url("../../assets/gameCover/breakOut.png"); */
+  transition: 1s;
+}
+
+.loader-game:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  /* background: url("../../assets/gameCover/frogger.png"); */
+  transition: 1s;
+}
+
+@keyframes ROTATION {
+  0% {
+    background: url("../Loader/colors/televizor1.png");
+    background-size: cover;
+  }
+  10% {
+    background: url("../Loader/colors/televizor2.png");
+    background-size: cover;
+  }
+
+  20% {
+    background: url("../Loader/colors/televizor2.png");
+    background-size: cover;
+  }
+
+  30% {
+    background: url("../Loader/colors/televizor1.png");
+    background-size: cover;
+  }
+  40% {
+    background: url("../Loader/colors/televizor3.png");
+    background-size: cover;
+  }
+
+  50% {
+    background: url("../Loader/colors/televizor1.png");
+    background-size: cover;
+  }
+
+  60% {
+    background: url("../Loader/colors/televizor2.png");
+    background-size: cover;
+  }
+  70% {
+    background: url("../Loader/colors/televizor1.png");
+    background-size: cover;
+  }
+  80% {
+    background: url("../Loader/colors/televizor2.png");
+    background-size: cover;
+  }
+  90% {
+    background: url("../Loader/colors/televizor3.png");
+    background-size: cover;
+  }
+
+  100% {
+    background: url("../Loader/colors/televizor1.png");
+    background-size: cover;
+  }
+}

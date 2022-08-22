@@ -1,0 +1,107 @@
+.game-tutorial {
+  transition: 1s;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  color: rgb(2 2 2);
+  display: grid;
+  border-radius: 13px;
+  /* border-color: #0e0e0e; */
+  width: 208px;
+  margin-left: 11px;
+  height: 303px;
+  border-style: groove;
+  border-color: #333;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.game-tutorial:hover {
+  transform: translateY(-2px);
+}
+
+.game-tutorial-title {
+  color: rgb(2 2 2);
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.game-tutorial-name {
+  font-size: 10px;
+  background-color: aqua;
+  display: contents;
+  text-align: inherit;
+  justify-content: center;
+}
+
+.game-tutorial-name-left {
+  margin-left: 20px;
+}
+
+.game-tutorial-name-right {
+  margin-left: 20px;
+}
+
+.game-tutorial-name-up {
+  margin-left: 20px;
+}
+
+.game-tutorial-name-start {
+  margin-left: 20px;
+}
+
+.game-tutorial-name-return {
+  margin-left: 20px;
+}
+
+.right {
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-right: 30px;
+  border-style: outset;
+  border-color: coral;
+}
+
+.left {
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-right: 29px;
+  border-style: outset;
+  border-color: coral;
+}
+
+.up {
+  border-style: outset;
+  border-color: coral;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-right: 15px;
+}
+
+.down {
+  border-style: outset;
+  border-color: coral;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-right: 24px;
+}
+
+.start {
+  color: coral;
+}
+
+.back {
+  color: coral;
+}

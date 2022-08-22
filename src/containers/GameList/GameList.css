@@ -1,0 +1,120 @@
+.game-item {
+  text-decoration: none;
+  border-color: rgb(36, 37, 41);
+  border-style: groove;
+  color: rgb(36, 37, 41);
+  width: 320px;
+  height: 300px;
+  display: block;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  border-radius: 15px;
+  transition: 1s;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background: url("../../assets/gamebox.png");
+  font-family: "Press Start 2P";
+}
+
+.game-item div {
+  opacity: 0;
+}
+
+.game-item:hover {
+  text-decoration: none;
+  border-color: rgb(36, 37, 41);
+  border-style: groove;
+  color: rgb(36, 37, 41);
+  width: 320px;
+  height: 300px;
+  display: block;
+  border-radius: 15px;
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC)
+      14 0,
+    pointer;
+  text-align: center;
+  position: relative;
+  border-radius: 15px;
+  transition: 1s;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 2px #0e0e0e;
+  /* background: url("../../assets/games/bloodborne.png"); */
+  background-size: cover;
+}
+
+.game-item div:hover {
+  transition: 1s;
+  opacity: 1;
+}
+
+.game-item:active {
+  box-shadow: 0px 0px 10px 2px #0e0e0e;
+  color: white;
+  background-color: #df4c4c;
+  transform: scale(0.96);
+  box-shadow: 0px 0px 10px 2px #0e0e0e;
+  transform: translateY(-2px);
+}
+
+.game-item:not(:last-child) {
+  margin-bottom: 30px;
+  margin-right: 50px;
+
+  border-color: rgb(36, 37, 41);
+}
+
+.game-item-title {
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  /* border-style: double; */
+  margin-left: 10px;
+}
+
+.game-item-details {
+  border-color: rgb(36, 37, 41);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flow-root;
+}
+
+.game-item-description {
+  padding: 10px;
+  width: 295px;
+  margin-left: 10px;
+  border-style: dashed;
+  border-color: rgb(36, 37, 41);
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.game-item-buttonCart {
+  border-color: rgb(36, 37, 41);
+  position: relative;
+  right: 0;
+  bottom: -12px;
+}
+
+.game-item-button {
+  display: flex;
+  margin-top: 125px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 102px;
+  position: absolute;
+  background: #df4c4c;
+  border-color: rgb(168, 84, 84);
+  transition: 1s;
+  box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.game-item-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 0px 10px 2px #0e0e0e;
+  transition: 1s;
+}

@@ -1,0 +1,18 @@
+#grid-memory {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 101px;
+  width: 518px;
+  height: 390px;
+  color: rgba(0, 0, 0, 1);
+  border-color: rgb(168, 84, 84);
+  border-style: double;
+}
+
+#grid-memory img {
+  background-size: cover;
+  vertical-align: middle;
+  border-style: groove;
+  width: 170px;
+  height: 96px;
+}

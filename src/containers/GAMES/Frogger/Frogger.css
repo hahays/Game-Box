@@ -1,0 +1,57 @@
+.grid-frogger {
+  border-color: rgb(168, 84, 84);
+  /* padding: 1.5rem 2rem; */
+  /* border-color: rgb(172, 163, 163); */
+  border-style: double;
+  height: 394px;
+  width: 520px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-left: 101px;
+  margin-top: 18px;
+}
+
+.grid-frogger div {
+  height: 38px;
+  width: 57px;
+}
+
+.ending-block {
+  border-style: groove;
+  background-color: red;
+}
+
+.starting-block {
+  border-style: groove;
+  background-color: blue;
+}
+
+.l1,
+.l2,
+.l3 {
+  border-style: groove;
+  background-color: brown;
+}
+
+.l4,
+.l5 {
+  border-style: groove;
+  background-color: lightblue;
+}
+
+.c1 {
+  border-style: groove;
+  background-color: black;
+}
+
+.c2,
+.c3 {
+  border-style: groove;
+  background-color: lightgrey;
+}
+
+.frog {
+  border-style: groove;
+  background-color: green;
+}
