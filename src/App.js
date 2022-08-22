@@ -11,7 +11,6 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <Header />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/app/:title" element={<GamePage />}></Route>

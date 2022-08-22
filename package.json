@@ -2,7 +2,7 @@
   "name": "vadim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hahays.github.io/Game-Box",
+  "homepage": "https://hahays.github.io/Game-Box",
   "dependencies": {
     "@react-three/fiber": "^8.3.1",
     "@reduxjs/toolkit": "^1.8.3",

@@ -1,0 +1,18 @@
+.App {
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  box-sizing: content-box;
+  max-width: 1180px;
+  margin: 0 auto;
+  color: white;
+  filter: none;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
