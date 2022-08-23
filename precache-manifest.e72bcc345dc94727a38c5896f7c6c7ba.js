@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3978d9827360707c3212",
-    "url": "/Game-Box/static/css/main.55176c0f.chunk.css"
+    "revision": "56219d6967e2a1f6d701",
+    "url": "/Game-Box/static/css/main.d1fbb3f3.chunk.css"
   },
   {
-    "revision": "3978d9827360707c3212",
-    "url": "/Game-Box/static/js/main.3978d982.chunk.js"
+    "revision": "56219d6967e2a1f6d701",
+    "url": "/Game-Box/static/js/main.56219d69.chunk.js"
   },
   {
     "revision": "229cf32b6179f9abe239",
@@ -60,19 +60,19 @@ self.__precacheManifest = [
     "url": "/Game-Box/static/media/televizor1.810aee48.png"
   },
   {
-    "revision": "1f968a5303b4821d31649463f5ef11be",
-    "url": "/Game-Box/static/media/televizor2.1f968a53.png"
-  },
-  {
     "revision": "62cb9536d451e2eb109fceb2cbe4abce",
     "url": "/Game-Box/static/media/televizor3.62cb9536.png"
+  },
+  {
+    "revision": "1f968a5303b4821d31649463f5ef11be",
+    "url": "/Game-Box/static/media/televizor2.1f968a53.png"
   },
   {
     "revision": "89b826dbe90ada368802774377d19357",
     "url": "/Game-Box/static/media/console.89b826db.png"
   },
   {
-    "revision": "38be437bc0a13100c8bdd8eea1a586f8",
+    "revision": "96eed1b9b0378ed8b6c17510c40aee23",
     "url": "/Game-Box/index.html"
   }
 ];

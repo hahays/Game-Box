@@ -1,7 +1,7 @@
 {
-  "main.css": "/Game-Box/static/css/main.55176c0f.chunk.css",
-  "main.js": "/Game-Box/static/js/main.3978d982.chunk.js",
-  "main.js.map": "/Game-Box/static/js/main.3978d982.chunk.js.map",
+  "main.css": "/Game-Box/static/css/main.d1fbb3f3.chunk.css",
+  "main.js": "/Game-Box/static/js/main.56219d69.chunk.js",
+  "main.js.map": "/Game-Box/static/js/main.56219d69.chunk.js.map",
   "static/css/1.4a1f2f76.chunk.css": "/Game-Box/static/css/1.4a1f2f76.chunk.css",
   "static/js/1.229cf32b.chunk.js": "/Game-Box/static/js/1.229cf32b.chunk.js",
   "static/js/1.229cf32b.chunk.js.map": "/Game-Box/static/js/1.229cf32b.chunk.js.map",
@@ -16,11 +16,11 @@
   "static/media/spaceInvaders.png": "/Game-Box/static/media/spaceInvaders.2a8dd960.png",
   "static/media/index.css": "/Game-Box/static/media/BdNew1.1f5a9e2f.png",
   "static/media/GameList.css": "/Game-Box/static/media/gamebox.1dfd0838.png",
-  "static/media/Loader.css": "/Game-Box/static/media/televizor3.62cb9536.png",
+  "static/media/Loader.css": "/Game-Box/static/media/televizor2.1f968a53.png",
   "static/media/GamePage.css": "/Game-Box/static/media/console.89b826db.png",
+  "static/css/main.d1fbb3f3.chunk.css.map": "/Game-Box/static/css/main.d1fbb3f3.chunk.css.map",
   "static/css/1.4a1f2f76.chunk.css.map": "/Game-Box/static/css/1.4a1f2f76.chunk.css.map",
-  "static/css/main.55176c0f.chunk.css.map": "/Game-Box/static/css/main.55176c0f.chunk.css.map",
   "index.html": "/Game-Box/index.html",
-  "precache-manifest.8cd51c3dc6a0c79f4adae63fb9c51dee.js": "/Game-Box/precache-manifest.8cd51c3dc6a0c79f4adae63fb9c51dee.js",
+  "precache-manifest.e72bcc345dc94727a38c5896f7c6c7ba.js": "/Game-Box/precache-manifest.e72bcc345dc94727a38c5896f7c6c7ba.js",
   "service-worker.js": "/Game-Box/service-worker.js"
 }
