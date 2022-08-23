@@ -37,7 +37,7 @@ function start(onLose) {
   function moveOutcome() {
     let squares = document.querySelectorAll(".grid-snake div");
     if (checkForHits(squares)) {
-      alert("you hit something");
+      alert("GAME OVER");
 
       if (onLose) {
         onLose();

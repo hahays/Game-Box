@@ -8,8 +8,6 @@ import "nes.css/css/nes.min.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router basename="Game-Box">
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <App />
   </Router>
 );

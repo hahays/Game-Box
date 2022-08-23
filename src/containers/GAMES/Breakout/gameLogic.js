@@ -202,6 +202,7 @@ function start(onLose) {
   const stop = () => {
     document.removeEventListener("keydown", moveUser);
     clearInterval(timeId);
+    score = 0;
   };
 
   return stop;

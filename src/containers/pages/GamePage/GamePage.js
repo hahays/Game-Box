@@ -86,7 +86,7 @@ function GamePage() {
   return (
     <div className="game-page ">
       <div className="left-page">
-        <Table />
+        <Table id={gameKey} />
       </div>
       <div className="center-page">
         <h1 className="game-page-title">{game.title}</h1>

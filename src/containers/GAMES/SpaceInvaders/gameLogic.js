@@ -112,7 +112,7 @@ function start(onLose) {
     draw();
 
     if (squares[currentShooterIndex].classList.contains("invader", "shooter")) {
-      resultsDisplay.innerHTML = "Lose! Your score: " + results;
+      resultsDisplay.innerHTML = "Lose! Score: " + results;
       clearInterval(invadersId);
       if (onLose) {
         onLose();
@@ -120,7 +120,7 @@ function start(onLose) {
 
       for (let i = 0; i < alienInvaders.length; i++) {
         if (alienInvaders[i] > squares.length) {
-          resultsDisplay.innerHTML = "Lose! Your score: " + results;
+          resultsDisplay.innerHTML = "Lose! Score: " + results;
           clearInterval(invadersId);
           if (onLose) {
             onLose();
@@ -142,6 +142,19 @@ function start(onLose) {
       squares[currentLaserIndex].classList.remove("laser");
       currentLaserIndex -= width;
       squares[currentLaserIndex].classList.add("laser");
+      console.log(currentLaserIndex);
+
+      if (currentLaserIndex <= 14) {
+        squares[currentLaserIndex].classList.add("boom");
+        squares[currentLaserIndex].classList.remove("laser");
+        setTimeout(
+          () => squares[currentLaserIndex].classList.remove("boom"),
+          300
+        );
+        clearInterval(laserId);
+
+        squares[currentLaserIndex].classList.add("boom");
+      }
 
       if (squares[currentLaserIndex].classList.contains("invader")) {
         squares[currentLaserIndex].classList.remove("laser");
@@ -161,6 +174,7 @@ function start(onLose) {
         console.log(aliensRemoved);
       }
     }
+
     switch (e.key) {
       case "ArrowUp":
         laserId = setInterval(moveLaser, 100);

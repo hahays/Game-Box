@@ -10,7 +10,7 @@ function start(onLose) {
   const width = 9;
   let timerId;
   let outcomeTimerId;
-  let currentTime = 20;
+  let currentTime = 21;
 
   function moveFrog(e) {
     squares[currentIndex].classList.remove("frog");

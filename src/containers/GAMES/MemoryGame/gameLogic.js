@@ -85,15 +85,10 @@ function start() {
     const optionOneId = cardsChosenIds[0];
     const optionTwoId = cardsChosenIds[1];
 
-    if (optionOneId === optionTwoId) {
+    if (cardsChosenIds[0] === cardsChosenIds[1]) {
       cards[optionOneId].setAttribute("src", CLOSEIMG);
       cards[optionTwoId].setAttribute("src", CLOSEIMG);
-
-      alert("You have a clicked the same image");
-    }
-
-    console.log("check for match!");
-    if (cardsChosen[0] === cardsChosen[1]) {
+    } else if (cardsChosen[0] === cardsChosen[1]) {
       // alert("You found a match!");
       cards[optionOneId].setAttribute("src", WHITE);
       cards[optionTwoId].setAttribute("src", WHITE);
@@ -103,12 +98,12 @@ function start() {
     } else {
       cards[optionOneId].setAttribute("src", CLOSEIMG);
       cards[optionTwoId].setAttribute("src", CLOSEIMG);
+
       // alert("Sorry try again!");
     }
     resultDisplay.textContent = cardsWon.length;
     cardsChosen = [];
     cardsChosenIds = [];
-
     if (cardsWon.length == cardArray.length / 2) {
       resultDisplay.innerHTML = "You WIN!";
     }

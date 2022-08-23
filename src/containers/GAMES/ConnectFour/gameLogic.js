@@ -1,4 +1,4 @@
-function start() {
+function start(onLose) {
   const squares = document.querySelectorAll(".grid-connect-four div");
   const displayCurrentPlayer = document.querySelector("#score");
   let currentPlayer = 1;
@@ -121,8 +121,11 @@ function start() {
           currentPlayer = 1;
           displayCurrentPlayer.innerHTML = currentPlayer;
         }
-      } else alert("cant go here");
+      } // } else alert("cant go here");
       checkBoard();
+      if (onLose) {
+        onLose();
+      }
     };
   }
 }
